@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+      integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+      integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+      crossorigin=""
+    ></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>The Face| IP Address Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .attribution {
+        font-size: 15px;
+        text-align: center;
+        margin: 2em 0;
+        color-scheme: black;
+        font-weight: 700;
+      }
+
+      .attribution a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>IP Address Tracker</h1>
+    <form onsubmit="return false">
+      <input
+        type="text"
+        name="ip" autocomplete="off"
+        id="ip"
+        placeholder="Search for any IP address or domain"
+      />
+      <button type="submit">
+        <img src="./images/icon-arrow.svg" alt="Search" />
+      </button>
+    </form>
+    <div class="container">
+      <div>
+        <h2>IP Address</h2>
+        <h3 class="ipaddress">41.217.123.232</h3>
+      </div>
+      <hr />
+      <div>
+        <h2>Location</h2>
+        <h3 class="location">Lagos, Nigeria</h3>
+      </div>
+      <hr />
+      <div>
+        <h2>Timezone</h2>
+        <h3 class="timezone">UTC</h3>
+      </div>
+      <hr />
+      <div>
+        <h2>ISP</h2>
+        <h3 class="isp">SpaceX</h3>
+      </div>
+    </div>
+
+    <div class="maparea" id="maparea"></div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">The Face</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
