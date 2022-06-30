@@ -31,6 +31,9 @@ function GetLocation() {
         const lat = data.location.lat
         const long = data.location.lng
         map.setView([lat, long], 14)
+        L.marker([lat, long]).addTo(map)
+    .bindPopup('<h2>Right Here.</h2>')
+    .openPopup();
 
       })
       .catch((err) => {
