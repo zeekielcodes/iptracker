@@ -10,7 +10,7 @@ html {
     font-size: 62.5%;
 }
 
-body {
+main{
     background: url("./images/pattern-bg.png");
     /* background-repeat: no-repeat; */
     display: flex;
@@ -148,4 +148,11 @@ hr {
     .container h2 {
         margin-bottom: .5em;
     }
+}
+
+@media (max-width:400px) {
+   form input {
+        width: 80%;
+    }
+    
 }
