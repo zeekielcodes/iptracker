@@ -25,7 +25,7 @@ function GetLocation() {
         const isp = document.querySelector(".isp");
         IP.innerHTML = data.ip;
         Location.innerHTML =
-          data.location.region + ", " + data.location.country;
+          data.location.region + ", " + data.location.country + "<br> " + data.location.postalCode;
         Timezone.append(" " + data.location.timezone);
         isp.innerHTML = data.isp;
         const lat = data.location.lat
