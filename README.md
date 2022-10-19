@@ -19,6 +19,6 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 
 ## Author
 
-- Website - [Ezekiel The Face](https://thefaceportfolio.netlify.app)
+- Portfolio - [Ezekiel The Face](https://thefaccodes.web.app)
 - Frontend Mentor - [@iamtheface](https://www.frontendmentor.io/profile/iamtheface)
-- Twitter - [@thefacetweets](https://www.twitter.com/thefacetweets)
+- Twitter - [@thefacecodes](https://www.twitter.com/thefacecodes)
