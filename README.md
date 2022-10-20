@@ -20,5 +20,5 @@ This is my solution to the [IP address tracker challenge on Frontend Mentor](htt
 ## Author
 
 - Portfolio - [Ezekiel The Face](https://thefaccodes.web.app)
-- Frontend Mentor - [@iamtheface](https://www.frontendmentor.io/profile/iamtheface)
+- Frontend Mentor - [@thefacecodes](https://www.frontendmentor.io/profile/thefacecodes)
 - Twitter - [@thefacecodes](https://www.twitter.com/thefacecodes)
